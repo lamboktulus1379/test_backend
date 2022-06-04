@@ -1,1 +1,16 @@
-Pseudocode
+Merge Sort
+
+1. Inisialisasi low dgn nilai 0, high dgn nilai panjang array dikurang 1.
+2. Buat sebuah fungsi partition, yg menerima parameter low, high, dan array.
+3. Selama low lbh kecil dari high, lakukan partition.
+4. Inisialisasi mid dgn nilai low + high / 2
+5. Pemanggilan partition dengan low = 0 dan high = mid
+6.Pemanggilan partition  dengan low = mid dan high = high.
+
+7. Kembali ke step 3.
+8. Lakukan merge dengan inisialiasi array baru dengan length high + 1.
+9. Lakukan loop dgn nilai awal low(i) sampai dengan mid dan mid+1(j) sampai high, inisialisasi k dengan 0.
+10. Selama perulangan, bandingkan nilai dari array index i dan array index j, jika nilai pada array index i lbh kecil, lakukan i+= 1, simpan nilai ke array baru dgn index k, k+=1.
+Dan sebaliknya.
+11. Cek jika i lebih kecil dari mid atau j lebih kecil dari high. Jika benar, maka nilai dari index i atau j, di assin ke array baru.
+12. Salin nilai dari array baru ke array asli. 
