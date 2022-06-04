@@ -12,5 +12,5 @@ Merge Sort
 9. Lakukan loop dgn nilai awal low(i) sampai dengan mid dan mid+1(j) sampai high, inisialisasi k dengan 0.
 10. Selama perulangan, bandingkan nilai dari array index i dan array index j, jika nilai pada array index i lbh kecil, lakukan i+= 1, simpan nilai ke array baru dgn index k, k+=1.
 Dan sebaliknya.
-11. Cek jika i lebih kecil dari mid atau j lebih kecil dari high. Jika benar, maka nilai dari index i atau j, di assin ke array baru.
+11. Cek jika i lebih kecil dari mid atau j lebih kecil dari high. Jika benar, maka nilai dari index i atau j, di assign ke array baru dgn index k, k+= 1.
 12. Salin nilai dari array baru ke array asli. 
