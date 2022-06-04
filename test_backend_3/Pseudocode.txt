@@ -1,1 +1,9 @@
-Merge Sort
+Deret bilangan
+
+1. Inisialisasi variabel inputanpertama, inputankedua, x
+2. Inisialisasi array dp dengan panjang x.
+3. Assign nilai dari inputanpertama ke dp index 0, nilai dari inputankedua ke dp index 1
+4. Loop dengan nilai awal inputanpertama sampai inputankedua (termasuk)
+5. Assign nilai ke dp dengan index i, yang merupakan hasil dari dp index i-1 dtambah nilai dari dp index i-1 dikurang nilai dp index i-2
+6. Tampilkan nilai dari array dp dengan perulangan.
+
